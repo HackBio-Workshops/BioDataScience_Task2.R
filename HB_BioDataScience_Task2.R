@@ -8,7 +8,7 @@ microbial_stationary_phase.csv
 data <- read.csv("microbial_stationary_phase.csv", row.names = 1)
 
 # Now we need to install and load two R package which will allow us to do PCA in R
-#intall
+#install
 install.packages(c("factoextra", "FactoMineR"))
 
 #load
